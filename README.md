@@ -8,10 +8,10 @@ Usage is :
 or
    $ ./ged2dot.pl < x.ged |dot -Tps -o x.ps
 
-'Individual' nodes, I*, are labelled after the NAME records
-'Family' nodes, F*, are implicitly created by FAMC & FAMS records
-FAMC records create F->I relations
-FAMS records create I->F relations
+'Individual' nodes, I*, are labelled after the NAME records;
+'Family' nodes, F*, are implicitly created by FAMC & FAMS records;
+FAMC records create F->I relations;
+FAMS records create I->F relations.
 
 '@' are removed because dot(1) doesn't like them.
 
