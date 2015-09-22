@@ -17,7 +17,7 @@ while ($line = <STDIN>)
 	{
 	if ($line =~ /^0 (.*) INDI/)
 		{
-		$node_indi = wash($n);
+		$node_indi = wash($1);
 		}
 	if ($line =~ /^1 NAME (.*?) .*\/(.*)\//)
 		{ # 1 NAME James Dewey /Watson/ --> James Watson
